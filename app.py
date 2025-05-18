@@ -4,7 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_excel('/content/data skripsi 2020-2024.xlsx')
+# Use pd.read_csv to read the CSV file
+df = pd.read_csv('/content/Curah Hujan 2020-2024.csv')
 print(df.head())
 
 # Cek informasi umum dari DataFrame (tipe data, non-null count, dsb)
@@ -16,7 +17,7 @@ print(df.columns)
 # Cek ringkasan statistik dari DataFrame
 print(df.describe())
 
-df = pd.read_excel('/content/data skripsi 2020-2024.xlsx')
+df = pd.read_csv('/content/Curah Hujan 2020-2024.csv')
 df.head()
 
 
