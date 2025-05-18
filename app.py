@@ -1,5 +1,10 @@
 ### **PERSIAPAN DATA**
 
+import os
+print("Current working directory:", os.getcwd())
+print("Files in directory:", os.listdir())
+
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
